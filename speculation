@@ -1,0 +1,16 @@
+{
+    "prefetch": [
+        {
+            "eagerness": "eager",
+            "source": "document",
+            "where": {
+                "and": [
+                    {
+                        "href_matches": "/",
+                        "relative_to": "png"
+                    }
+                ]
+            }
+        }
+    ]
+}
